@@ -1,0 +1,90 @@
+h1{
+	font-family: "Lucida Console", Courier, monospace;
+	color: #36330e;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.box{
+	margin: 10px;
+	padding: 10px;
+}
+
+p{
+    color: #f7f7d7;
+    border: 3px solid black;
+    padding: 5px;
+   	margin: 20px;
+    background-color: #757566;
+}
+
+#p5 {
+    color: #f7f7d7;
+    border: 3px solid black;
+    padding: 35px 5px 5px 5px;
+   	margin: 20px;
+    background-color: #757566;
+}
+
+
+*{
+	box-sizing: border-box;
+}
+
+
+#p1{
+	float: left;
+	background-color: #8c0c06;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#p2{
+	float: center;
+	background-color: #7d7574;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#p3{
+	float: right;
+	background-color: #8f0b82;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
+
+@media (min-width: 992px) {
+  .col-lg-4{
+  	position: relative;
+    float: left;
+    width: 33.33%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    position: relative;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .col-sm-12{
+  	position: relative;
+    float: left; 
+    width: 100%;	
+  }
+}
